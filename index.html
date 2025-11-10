@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content ="UWA Perth International, an international student club in Perth">
+    <title>Perth International</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Google Font Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="icon" href="images/High Quality Logo.png">
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="index.html"><img src="logos/logo.png"></a>
+      <div class="nav-links">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="https://www.facebook.com/perthinternational/">Facebook</a></li>
+            <li class="hideOnMobile"><a href="https://www.instagram.com/perthinternational">Instagram</a></li>
+            <li class="hideOnMobile"><a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Fuwaperthinternational%3Ffbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnbAlNtJGzt6Afs8H643r1CjJi3fXi3TepCeADXw2xOY9aFkccUHT3qm65NtQ_aem_YXnjCoc7RTY3hgM2AqDZOw%26brid%3DLQS0PN2ejHFpqZAj3IPFkA&e=AT3nFBeSD2ZmGekbSBk9XCOOLlNd8RnahWn-9HUQxi8IyFLIkn6Fpls3WW9lY0cCro5dYO9rg9gssnpxxpcMiXsWAs7ZVT6celZ0T2OTrstX1ZJtEUOGLw-EzA">Contact Us</a></li>
+            <li type="button" class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#f6decc"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        </div>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="fff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="https://www.facebook.com/perthinternational/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/perthinternational/">Instagram</a></li>
+        </ul>
+    </nav>
+
+    <div class="text-box">
+        <h1>Where will your journey take you?</h1>
+        <p>Find out more</p>
+        <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Fuwaperthinternational%3Ffbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnbAlNtJGzt6Afs8H643r1CjJi3fXi3TepCeADXw2xOY9aFkccUHT3qm65NtQ_aem_YXnjCoc7RTY3hgM2AqDZOw%26brid%3DLQS0PN2ejHFpqZAj3IPFkA&e=AT3nFBeSD2ZmGekbSBk9XCOOLlNd8RnahWn-9HUQxi8IyFLIkn6Fpls3WW9lY0cCro5dYO9rg9gssnpxxpcMiXsWAs7ZVT6celZ0T2OTrstX1ZJtEUOGLw-EzA" class="hero-btn">Click here to find out more!</a>
+        </div>
+
+</section>
+<!--Who are PI?-->
+ <section>
+<div class="title">
+    <h2>What Is Perth International?</h2>
+    <div class="line">
+        <h3>Perth International is the University of Western Australia's Student Exchange <br> and Study Abroad Club. It is a non-for-profit enterprise
+            run by returned Australian <br> exchange students for the benefit of international and incoming exchange students.</h3>
+    </div>
+
+ </section>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+</script>
+
+</body>
+</html>
